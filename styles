@@ -2,8 +2,7 @@
 
 /* all */
 * {
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -13,12 +12,14 @@ body {
 
 
 h1 {
-    display: flex;
-    justify-content: center;
+    display: inline;
+    position: absolute;
+    top: 30vh;
+    left: 40vw;
     font-family: "Bilbo Swash Caps", cursive;
     font-size: 80px;
     font-weight: 400;
-    margin-top: 40vh;
+    
 }
 
 h1:hover {
