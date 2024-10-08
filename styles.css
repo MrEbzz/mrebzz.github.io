@@ -17,8 +17,9 @@ h1 {
     top: 30vh;
     left: 40vw;
     font-family: "Bilbo Swash Caps", cursive;
-    font-size: 40px;
+    font-size: 70px;
     font-weight: 400;
+    overflow: auto;
     
 }
 
