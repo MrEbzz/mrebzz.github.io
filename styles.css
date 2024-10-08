@@ -2,25 +2,47 @@
 
 /* all */
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
 }
 
 body {
     background-color: rgb(49, 49, 49);
     color: white;
+    height: 100%;
+    width: 100%;
 }
 
 
+@media only screen and (max-width: 600px) {
+    h1 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+        font-size: 50px;
+    }
+  }
+
 h1 {
-    display: inline;
     position: absolute;
-    top: 30vh;
-    left: 40vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  
+
     font-family: "Bilbo Swash Caps", cursive;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 400;
-    overflow: auto;
-    
+  
 }
 
 h1:hover {
