@@ -50,7 +50,22 @@
             </div>
         </div>
     </div>
+    <!-- Javascript for Dark & Light -->
+    <script>
+        let btn=document.querySelector(".toggle")
+        let icon=document.querySelector(".toggle i")
+        let body=document.querySelector(".hero-header");
 
+        btn.onclick=function(){
+            body.classList.toggle("light-theme");
+            if(body.classList.contains("light-theme"))
+            {
+                icon.classList.add("fa-sun");
+                icon.classList.add("fa-moon");
+            }
+        
+        }
+    </script>
 </body>
 
 </html>
